@@ -37,7 +37,9 @@ p {
   position: static;
 }
 div {
-	text-align: center;
-	color: #FFFFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #000000;
 }
 
