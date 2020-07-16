@@ -18,7 +18,7 @@ h3 {
 
 body {
   padding: 20px;
-  position: absolute;
+  position: static;
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
