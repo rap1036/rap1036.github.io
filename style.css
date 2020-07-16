@@ -1,5 +1,5 @@
 h1 {
-  text-align: center;
+  text-align: center, top;
   font-size: 200px;
   font-color: #FFFFFFF;
   font-style: Marker Felt, fantasy;
@@ -17,7 +17,7 @@ h3 {
 
 body {
   padding: 20px;
-  position: static;
+  position: bottom, center;
   background-attachment: fixed;
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
