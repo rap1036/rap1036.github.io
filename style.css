@@ -3,7 +3,8 @@ h1 {
   font-size: 50px;
 
   margin-bottom: 2px;
-  text-decoration: ;
+  text-decoration: nicely;
+  background-image: url("putnams.jpg");
 }
 
 h3 {
@@ -26,6 +27,10 @@ p {
   margin-right: 150px;
   margin-left: 80px;
   position: static;
+}
+div {
+	text-align: center;
+	back
 }
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
