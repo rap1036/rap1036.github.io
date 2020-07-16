@@ -3,8 +3,7 @@ h1 {
   font-size: 50px;
 
   margin-bottom: 2px;
-  text-decoration: nicely;
-  background-image: url("putnams.jpg");
+  margin-top: 2px;
 }
 
 h3 {
@@ -18,8 +17,8 @@ h3 {
 
 body {
   padding: 20px;
-  position: absolute
- 
+  position: absolute;
+  background-image: url("putnams.jpg");
 }
 p {
   margin-top: 100px;
