@@ -52,6 +52,8 @@ p {
   margin-left: 80px;
   position: static;
   text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
 }
 div {
   position:absolute;
