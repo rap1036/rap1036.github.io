@@ -49,6 +49,7 @@ p {
   margin-right: 150px;
   margin-left: 80px;
   position: static;
+  text-align: center;
 }
 div {
   position:absolute;
@@ -58,6 +59,5 @@ div {
     right:50%;
     left:25%;
     border: 3px solid #000000;
-  
 }
 
