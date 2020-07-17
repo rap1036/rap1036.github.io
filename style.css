@@ -24,6 +24,7 @@ head {
     min-width: 300px;
 }
 .banner {
+  height: 50%;
   width: 100%;
   padding:20px 0;
   text-align: center;
