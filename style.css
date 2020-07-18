@@ -60,9 +60,7 @@ div {
     width:500px;
     height:900px;
     bottom:0px;
-    right:30%;
-    left:50%;
-	margin-left: -150;
+    margin: auto;
     border: 4px solid #000000;
 }
 
