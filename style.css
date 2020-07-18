@@ -3,7 +3,7 @@ html {
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #28359e;
+  background-color: #2e48a3;
   margin-top: 10px;
 }
 h1 {
@@ -35,7 +35,7 @@ head {
   width: 100%;
   padding:20px 0;
   text-align: center;
-  background: #28359e;
+  background: #2e48a3;
   color: #FFFFFF;
 }
 }
