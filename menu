@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+font-size: 18px;
+}
+</style>
+<section class="banner">
+    <h1>Putnam's Waterview</h1>
+		<h2>Goffstown, New Hampshire</h2>
+	<a href="www.putnamswaterview.com">Menu(coming soon)</a> 
+</section>
+</head>
+<body>
+Menu items
+</body>
+</html>
