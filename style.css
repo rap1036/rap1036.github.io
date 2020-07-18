@@ -4,7 +4,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #2e48a3;
-  margin-top: 10px;
+  margin-top: 0;
 }
 h1 {
   text-align: center;
@@ -35,6 +35,7 @@ head {
   width: 100%;
   padding:0 20px;
   text-align: center;
+  align: top;
   background: #2e48a3;
   color: #FFFFFF;
 }
