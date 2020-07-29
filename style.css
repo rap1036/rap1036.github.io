@@ -35,10 +35,8 @@ head {
   width: 100%;
   padding:0 20px;
   text-align: center;
-  align: top;
   background: #2e48a3;
   color: #FFFFFF;
-}
 }
 body {
   padding: 20px;
@@ -52,10 +50,11 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
-  position: static;
   text-align: center;
-	font-size: 18px;
-	color: #FFFFFF;
+  font-size: 18px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 10;
 }
 div {
   position:absolute;
