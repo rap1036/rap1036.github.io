@@ -24,9 +24,9 @@ h2 {
 head {
     width:100%;
     position: absolute;
-    height: 16%;
+    height: 12%;
     background-position: 100%;
-    min-height: 40px;
+    min-height: 20px;
     min-width: 300px;
 }
 .banner {
