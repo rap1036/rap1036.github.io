@@ -37,8 +37,8 @@ head {
   color: #FFFFFF;
 }
 body {
-  padding: 20px;
-  position: bottom;
+  padding: 10px;
+  position: static;
   display: block;
   margin-left: auto;
   margin-right: auto;
