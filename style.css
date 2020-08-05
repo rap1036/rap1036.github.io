@@ -1,5 +1,5 @@
 html {
-	background-attachment: static;
+	background-attachment: fixed;
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
