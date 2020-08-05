@@ -1,5 +1,5 @@
 html {
-	background-attachment: relative;
+	background-attachment: static;
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -55,7 +55,7 @@ p {
   z-index: 10;
 }
 div {
-  position:relative;
+  position:static;
     width:500px;
     height:900px;
     bottom:0px;
