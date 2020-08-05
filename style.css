@@ -1,5 +1,5 @@
 html {
-	background-attachment: fixed;
+	background-attachment: relative;
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -31,7 +31,7 @@ head {
 .banner {
   max-height: 180px;
   width: 100%;
-  padding:0 20px;
+  padding:0 0px;
   text-align: center;
   background: #2e48a3;
   color: #FFFFFF;
@@ -55,7 +55,7 @@ p {
   z-index: 10;
 }
 div {
-  position:absolute;
+  position:relative;
     width:500px;
     height:900px;
     bottom:0px;
