@@ -36,13 +36,6 @@ head {
   background: #2e48a3;
   color: #FFFFFF;
 }
-body {
-  padding: 10px;
-  position: static;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 p {
   margin-top: 100px;
   margin-bottom: 100px;
