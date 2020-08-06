@@ -17,9 +17,8 @@ h1 {
 h2 {
 	text-align: center;
 	font-size: 30px;
-	font-stretch: ultra-condensed;
 	color: #FFFFFF;
-	position: relative;
+	position: static;
 	background-color: #2e48a3;
 }
 head {
