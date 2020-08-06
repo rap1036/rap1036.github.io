@@ -18,8 +18,9 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 	color: #FFFFFF;
-	position: static;
+	position: relative;
 	background-color: #2e48a3;
+	background-postion: center;
 }
 head {
     width:100%;
