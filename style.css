@@ -48,7 +48,7 @@ p {
   z-index: 10;
 }
 div {
-  position:static;
+  position:relative;
     width:500px;
     height:900px;
     bottom:0px;
