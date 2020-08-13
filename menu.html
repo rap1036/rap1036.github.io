@@ -1,15 +1,96 @@
 <!DOCTYPE html>
-<html style="background-image: url('https://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-parchment-paper-900x1093.jpg');">
+<html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="menustyle.css" />
-<section class="banner">
-    <h1>Putnam's Waterview</h1>
-		<h2>Goffstown, New Hampshire</h2>
-	<h2><a href="index.html">Back to main site</a></h2>
-</section>
+<title>Putnam's Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  align: center;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #420;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  height: 15%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Appetizers {background-color: #002748; margin-right: 4%; margin-left: 4%;}
+#Lunch {background-color: #002748; margin-right: 4%; margin-left: 4%;}
+#Drinks {background-color: #002748; margin-right: 4%; margin-left: 4%;}
+#Breakfast {background-color: #002748; margin-right: 4%; margin-left: 4%;}
+</style>
 </head>
 <body>
-	<h2>All Menu items available for Takeout as well as Dine-in<br /><small>Join us on the patio!</small></h2>
+
+<button class="tablink" onclick="openPage('Appetizers', this, 'red')">Appetizers</button>
+<button class="tablink" onclick="openPage('Lunch', this, 'green')" id="defaultOpen">Lunch & Dinner</button>
+<button class="tablink" onclick="openPage('Drinks', this, 'blue')">Drinks & Desserts</button>
+<button class="tablink" onclick="openPage('Breakfast', this, 'orange')">Breakfast at Sawyer's</button>
+
+<div id="Appetizers" class="tabcontent">
+  <h3>Appetizers</h3>
+  <p>Here is the appetizers</p>
+</div>
+
+<div id="Lunch" class="tabcontent">
+  <h3>Lunch and dinner</h3>
+  <p>something to eat</p> 
+</div>
+
+<div id="Drinks" class="tabcontent">
+  <h3>Drinks and Desserts</h3>
+  <p>drinks and ice cream</p>
+</div>
+
+<div id="Breakfast" class="tabcontent">
+  <h3>Sawyers</h3>
+  <p>sawyers breakfast</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
 </body>
-</html>
+</html> 
