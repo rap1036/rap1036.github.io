@@ -49,12 +49,13 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Lunch', this, '#333')">Lunch & Dinner</button>
+<button class="tablink" onclick="openPage('Lunch', this, '#333')" id="defaultOpen">Lunch & Dinner</button>
 <button class="tablink" onclick="openPage('Specials', this, '#555')">Specials</button>
-<button class="tablink" onclick="openPage('Functions', this, '#444')" id="defaultOpen">Functions</button>
+<button class="tablink" onclick="openPage('Functions', this, '#444')" >Functions</button>
 <button class="tablink" onclick="openPage('Breakfast', this, 'red')">Breakfast at Sawyer's</button>
 
  <div id="Lunch" class="tabcontent">
+ <p><a href="index.html">Back to site</a></p>
  <img src="menu1.jpg" id="images">
  <img src="menu2.jpg" id="images">
  <img src="menu3.jpg" id="images">
