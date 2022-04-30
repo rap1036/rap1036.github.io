@@ -40,36 +40,33 @@ body, html {
   height: 100%;
 }
 
-#Appetizers {background-color: #FFFFFF;}
-#Lunch {background-color: #FFFFFF;}
-#Drinks {background-color: #FFFFFF;}
+#Lunch&Dinner {background-color: #FFFFFF;}
+#Drinks&Desserts {background-color: #FFFFFF;}
+#Specials {background-color: #FFFFFF;}
 #Breakfast {background-color: #FFFFFF;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Appetizers', this, '#333')">Appetizers</button>
-<button class="tablink" onclick="openPage('Lunch', this, '#444')" id="defaultOpen">Lunch & Dinner</button>
-<button class="tablink" onclick="openPage('Drinks', this, '#555')">Drinks & Desserts</button>
+<button class="tablink" onclick="openPage('Lunch&Dinner', this, '#333')">Lunch & Dinner</button>
+<button class="tablink" onclick="openPage('Drinks&Desserts', this, '#444')" id="defaultOpen">Drinks & Desserts</button>
+<button class="tablink" onclick="openPage('Specials', this, '#555')">Specials</button>
 <button class="tablink" onclick="openPage('Breakfast', this, 'red')">Breakfast at Sawyer's</button>
 
-<div id="Appetizers" class="tabcontent">
+<div id="Lunch&Dinner" class="tabcontent">
  
 </div>
 
-<div id="Lunch" class="tabcontent">
-  <h3>Lunch and dinner</h3>
-  <p>something to eat</p> 
+<div id="Drinks&Desserts" class="tabcontent">
+ 
 </div>
 
-<div id="Drinks" class="tabcontent">
-  <h3>Drinks and Desserts</h3>
-  <p>drinks and ice cream</p>
+<div id="Specials" class="tabcontent">
+  
 </div>
 
 <div id="Breakfast" class="tabcontent">
-  <h3>Sawyers</h3>
-  <p>sawyers breakfast</p>
+  
 </div>
 
 <script>
