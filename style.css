@@ -3,13 +3,13 @@ html {
   background-image: url("putnams.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #2e48a3;
+  background-color: #FFFFFF;
   margin-top: 0px;
 }
 h1 {
   text-align: center;
   font-size: 60px;
-  color: #FFFFFF;
+  color: #000000;
   font-family: "Lucida Console", Courier, monospace;
   min-height:40px;
 }
@@ -17,7 +17,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-size: 30px;
-	color: #FFFFFF;
+	color: #000000;
 	position: relative;
 }
 head {
@@ -34,7 +34,7 @@ head {
   padding:0 0px;
   text-align: center;
   background: #2e48a3;
-  color: #FFFFFF;
+  color: #000000;
 }
 p {
   margin-top: 10px;
@@ -42,8 +42,8 @@ p {
   margin-right: 150px;
   margin-left: 80px;
   text-align: center;
-  font-size: 26px;
-  color: #FFFFFF;
+  font-size: 36px;
+  color: #000000;
   position: relative;
   z-index: 10;
 }
