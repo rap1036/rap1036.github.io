@@ -44,6 +44,7 @@ body, html {
 #Drinks&Desserts {background-color: #FFFFFF;}
 #Specials {background-color: #FFFFFF;}
 #Breakfast {background-color: #FFFFFF;}
+#images {  width: 100%;  height: auto; }
 </style>
 </head>
 <body>
@@ -54,10 +55,10 @@ body, html {
 <button class="tablink" onclick="openPage('Breakfast', this, 'red')">Breakfast at Sawyer's</button>
 
 <div id="Lunch&Dinner" class="tabcontent">
- <img src="menu1.jpg" alt="menu 1">
- <img src="menu2.jpg" alt="menu 2">
- <img src="menu3.jpg" alt="menu 3">
- <img src="menu4.jpg" alt="menu 4">
+ <img src="menu1.jpg" id="images">
+ <img src="menu2.jpg" id="images">
+ <img src="menu3.jpg" id="images">
+ <img src="menu4.jpg" id="images">
 </div>
 
 <div id="Drinks&Desserts" class="tabcontent">
@@ -65,9 +66,13 @@ body, html {
 </div>
 
 <div id="Specials" class="tabcontent">
-  <img src="primerib.jpg" alt="prime rib">
-  <img src="chicken caprese.jpg" alt="chicken caprese">
-  <img src="smokehousechickeneggrolls.jpg" alt="smokehouse chicken eggrolls">
+  
+  <img src="primerib.jpg" id="images">
+  <h2>Prime Rib</h2>
+  <img src="chicken caprese.jpg" id="images">
+  <h2>Chicken Caprese</h2>
+  <img src="smokehousechickeneggrolls.jpg" id="images">
+  <h2>Smokehouse Chicken Egg Rolls</h2>
 </div>
 
 <div id="Breakfast" class="tabcontent">
