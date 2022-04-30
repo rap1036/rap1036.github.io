@@ -23,9 +23,9 @@ h2 {
 head {
     width:100%;
     position: absolute;
-    height: 12%;
+    height: 5%;
     background-position: 100%;
-    min-height: 20px;
+    min-height: 10px;
     min-width: 300px;
 }
 .banner {
@@ -53,4 +53,10 @@ div {
     bottom:0px;
     right: 50%;
     left: 25%;
+}
+img_resize {
+	width: 60%
+}
+im_resize {
+	height: 60%
 }
